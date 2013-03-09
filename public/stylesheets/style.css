@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.logo {
+  font-size: 4.5em;
+  line-height: 1.5;
+}
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 1.333333em;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+}
+h1 line-height: 1.5 {
+  margin-bottom: 0.75em;
+}
+ul li {
+  list-style: none;
+}
+.site-nav a {
+  color: #a0a0a0;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+.nav a {
+  display: inline-block;
+}
+site-header .current a {
+  color: #484848;
+  text-decoration: underline;
+}

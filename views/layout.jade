@@ -1,0 +1,24 @@
+!!! 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/chunkfive-fontface.css')
+  body
+
+   header.site-header
+     a.logo(href='/', title='My name up in lights!') Express
+       nav.site-nav
+         ul.nav
+           li.current
+             a(href='/', title='Home') Home
+           li
+             a(href='/about', title='Read a little about Express') About
+           li
+             a(href='/writing', title='Find more articles I have written in Express') Writing
+           li
+             a(href='/work', title='Find more projects I have worked on') Work
+           li
+            a(href='/contact', title='Send me a message or find me elsewhere') Contact
+    
+    block content

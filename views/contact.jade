@@ -1,0 +1,24 @@
+extends layout
+
+block content
+
+    label(for='name') Name
+      input#name.text-input(type='text', name='user_name', required='required')
+       .field-group
+      label(for='email') Email
+      input#email.text-input(type='email', name='email', required='required')
+       .field-group
+      label(for='phone')
+        | Phone
+        small (optional)
+      input#phone.text-input(type='tel', name='user_phone')
+       .field-group
+      label(for='website')
+        | Website
+        small (optional)
+      input#website.text-input(type='url', name='user_website')
+       .field-group.textarea
+      label(for='message') Message
+      textarea#message.text-input(name='user_message', rows='8', required='required')
+
+      button.button(type='submit') Send It!  
